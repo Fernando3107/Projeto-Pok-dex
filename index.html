@@ -4,6 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/card.css">
+    <link rel="stylesheet" href="src/css/listing.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    
+                                <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+                        <!---------------------------->
     <title>Pokédex</title>
 </head>
 
@@ -11,14 +22,14 @@
     <main>
         <div class="pokedex">
             <div class="cartoes-pokemon">
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon aberto tipo-eletrico">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Pikachu</h2>
                             <span>#001</span>
                         </div>
 
-                        <span class="tipo">raio</span>
+                        <span class="tipo">elétrico</span>
 
                         <div class="cartao-imagem">
                             <img src="src/imagens/pikachu.png" alt="Imagem do pikachu" />
@@ -49,7 +60,7 @@
                     </div>
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-grama">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Bulbasaur</h2>
@@ -88,7 +99,7 @@
 
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-fogo">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Charmander</h2>
@@ -127,14 +138,14 @@
 
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-aquatico">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Gyarados</h2>
                             <span>#004</span>
                         </div>
 
-                        <span class="tipo">água</span>
+                        <span class="tipo">aquático</span>
 
                         <div class="cartao-imagem">
                             <img src="src/imagens/gyarados.png" alt="Imagem do charmander" />
@@ -166,7 +177,7 @@
 
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-fantasma">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Gengar</h2>
@@ -205,7 +216,7 @@
 
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-dragao">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Dragonite</h2>
@@ -247,7 +258,7 @@
 
             <nav class="listagem">
                 <ul>
-                    <li class="pokemon">
+                    <li class="pokemon ativo">
                         <img src="src/imagens/cabeca-pikachu.png" alt="cabeça do pikachu">
                         <span>Pikachu</span>
                     </li>
