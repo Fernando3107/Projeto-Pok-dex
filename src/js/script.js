@@ -1,11 +1,3 @@
-/*
-    Estudar:
-
-1 - querySelector
-2 - diferença entre foreach e o for
-3 - Funções de seta ou arrow functions
-*/
-
 const listaSelecaoPokemons = document.querySelectorAll(".pokemon")
 const pokemonsCard = document.querySelectorAll(".cartao-pokemon")
 
